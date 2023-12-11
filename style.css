@@ -37,6 +37,16 @@
   height: 10vh;
 }
 
+@media screen and (min-width: 350px) and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1540px) {
+  .container {
+    max-width: 1540px;
+  }
+}
 @media screen and (min-width: 1540px) and (max-width: 2540px) {
   .container {
     max-width: 2480px;
