@@ -24,10 +24,12 @@
 .box2 {
   background-color: #f2fada;
   width: 20vw;
+  padding-left: 10px;
 }
 .box3 {
   background-color: #d0edd3;
   width: 20vw;
+  padding-left: 10px;
 }
 .footer {
   box-sizing: border-box;
@@ -40,6 +42,22 @@
 @media screen and (min-width: 350px) and (max-width: 767px) {
   .container {
     max-width: 767px;
+    flex-direction: column-reverse;
+  }
+  .box1 {
+    height: 30vh;
+    width: 100vw;
+  }
+  .box2 {
+    height: 25vh;
+    width: 100vw;
+  }
+  .box3 {
+    height: 25vh;
+    width: 100vw;
+  }
+  .footer {
+    height: 12vh;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1540px) {
